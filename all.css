@@ -158,6 +158,10 @@ body {
     display: flex;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
 .text-white {
     color: #fff;
 }
@@ -241,4 +245,116 @@ p {
 .introduction .pic-collection {
     display: flex;
     gap: 24px;
+}
+
+.about-me {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.skill-item {
+    width: 306px;
+}
+
+.tech-intro {
+    width: 526px;
+    flex-shrink: 0;
+}
+
+.skill-item .card {
+    padding: 16px;
+    border: 1px solid #e3e3e3;
+    box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.skill-item h3 {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.skill-item p {
+    font-size: 1rem;
+}
+
+/* contact */
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.contact-title {
+    display: flex;
+    align-items: center;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-media li:hover {
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.25);
+}
+
+.social-media li a{
+    display: block;
+    border-radius: 40px;
+    padding: 0;
+    line-height: 0;
+}
+
+.social-media li a:hover {
+    box-shadow: 
+        0 0 16px 3px #9094ffe5,
+        0 4px 4px 0 rgba(0,0,0,0.25);
+}
+
+/* projects */
+.projects {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.projects h2 {
+    width: 746px;
+    margin-left: auto;
+}
+
+.projects .d-flex {
+    gap: 24px;
+}
+
+.projects .projects-intro {
+    margin-bottom: 4px;
+}
+
+.projects .projects-intro p {
+    font-size: 16px;
+}
+
+footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer p {
+    font-size: 16px;
+    text-align: center;
 }
