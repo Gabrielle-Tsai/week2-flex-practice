@@ -151,19 +151,23 @@ body {
 }
 
 .bg-black {
-    background: #000;
+    background: #000 !important;
 }
 
 .d-flex {
-    display: flex;
+    display: flex !important;
 }
 
 .flex-column {
-    flex-direction: column;
+    flex-direction: column !important;
+}
+
+.justify-content-between {
+    justify-content: space-between;
 }
 
 .text-white {
-    color: #fff;
+    color: #fff !important;
 }
 
 .background-cover {
@@ -232,8 +236,8 @@ p {
 }
 
 .btn img {
-    width: 13px;
-    height: 13px;
+    width: 20px;
+    height: 20px;
 }
 
 .introduction {
@@ -352,6 +356,10 @@ p {
 
 .projects .projects-intro p {
     font-size: 16px;
+}
+
+.projects-intro button {
+    align-self: flex-start;
 }
 
 footer {
